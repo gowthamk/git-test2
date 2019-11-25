@@ -23,7 +23,7 @@ $.ajax({
     data: sha256(data),
     url: url,
     success: function(response) {
-        $(".result").html(response);
+        console.log(response);
     }),
     dataType: "text"
 });
