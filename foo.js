@@ -2,7 +2,7 @@
 
 $.ajax({
     type: "POST",
-    data: sha256(data),
+    data: data,
     url: url,
     success: function(response) {
         $(".result").html(response);
